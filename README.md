@@ -1,27 +1,22 @@
-## WaveBoard
+## WhiteBoard
 
-![WaveBoardLogo](https://github.com/jeevan10017/WaveBoard/assets/132948936/ee3bdf84-5c88-4b3a-86b3-8c9511628562)
-
-Wave Board is a virtual whiteboard application built with React and Canvas HTML, utilizing the Rough JS library for sketchy graphics. It includes tools for drawing lines, shapes, and text, with options for customization and functionalities like undo, redo, erase, and downloading the canvas as a PNG file.
-
-![Screenshot 2024-06-28 191158](https://github.com/jeevan10017/WaveBoard/assets/132948936/2c502546-568d-430a-ace1-1a297506cf6e)
-
+White Board is a virtual drawing application built with React, HTML Canvas, and Rough.js, designed to simulate a hand-drawn sketch style. It provides a range of tools to draw lines, shapes, and text with customizable colors and stroke widths. Key features include undo/redo, eraser, and the option to export your canvas as a PNG image for easy sharing or saving.
 
 ## Features
 
-- 🖌️ Draw freehand brush strokes
-- 📏 Draw lines, rectangles, circles, and arrows
-- ✏️ Add text annotations
-- 🎨 Customize stroke color, stroke width, and fill color
-- ↩️ Undo and redo actions
-- 🧹 Erase elements
-- 📥 Download the canvas as a PNG image
-- 🌗 Toggle between light and dark modes
+🖌️ Freehand drawing with smooth brush strokes
+📏 Create shapes like lines, rectangles, circles, and arrows
+✏️ Insert text anywhere on the canvas
+🎨 Choose custom stroke colors, fill colors, and line thickness
+↩️ Step backward or forward with undo and redo support
+🧹 Remove any element using the eraser tool
+📥 Save your drawing by downloading it as a PNG file
+🌗 Switch between light mode and dark mode for better visibility
 
 ## Project Structure
 
 ```bash
-waveboard/
+whiteboard/
 ├── public/
 ├── src/
 │   ├── components/
@@ -55,12 +50,12 @@ waveboard/
 
 1. Clone the repository:
   ```bash
-git clone https://github.com/yourusername/waveboard.git
+git clone https://github.com/yourusername/whiteboard.git
  ```
 
 2. Navigate to the project directory:
  ```bash
-cd waveboard
+cd whiteboard
 ```
 3. install the dependencies:
 ```bash
@@ -147,7 +142,7 @@ Main application component that renders the board, toolbar, and toolbox.
 ## src/App.css
 
 # Author
-Wave Board is created and maintained by JEEVAN KUMAR KORRA
+White Board is created and maintained by Rudraksh Agnihotri
 
 
 
